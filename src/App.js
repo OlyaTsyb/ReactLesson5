@@ -33,7 +33,6 @@ class App extends Component {
                                     return <AllPosts/>;
                                 }}/>
                                 <Route path={"/comments"} render = {(props) =>{
-                                    
                                     return  <AllComments/>;
                                 }}/>
                             </Switch>
